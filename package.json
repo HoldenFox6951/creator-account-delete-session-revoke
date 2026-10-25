@@ -1,0 +1,12 @@
+{
+  "name": "creator-account-delete-session-revoke",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types src/account-deletion.test.ts",
+    "start": "node --experimental-strip-types src/creator-account-deletion.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
